@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonOfManyThings", "DungeonOfManyThings\DungeonOfManyThings.csproj", "{CF898B34-0B8E-430A-9008-39288B373406}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF898B34-0B8E-430A-9008-39288B373406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF898B34-0B8E-430A-9008-39288B373406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF898B34-0B8E-430A-9008-39288B373406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF898B34-0B8E-430A-9008-39288B373406}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A72CBCE-04C2-42FE-BD94-8FB82294158A}
+	EndGlobalSection
+EndGlobal
