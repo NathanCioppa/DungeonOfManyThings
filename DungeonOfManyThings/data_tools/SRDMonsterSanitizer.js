@@ -1,6 +1,21 @@
+module.exports = {
+    sanitizeMonsters,
+    sanitizeMonster,
+    getProperty,
+    getArmorClass,
+    checkIsLegendary,
+    getSpellcasting,
+    getSize,
+    getSpeed
+};
 
 const fs = require('fs');
+
 function sanitizeMonsters(monsters) {
+    if (!Array.isArray(monsters)) {
+        console.warn('Input is not an array, returning empty array.');
+        return [];
+    }
     return monsters.map(sanitizeMonster);
 }
 
@@ -116,6 +131,8 @@ function getSpellcasting(monster) {
                     spellcasting.ability = 2;
                 else 
                     spellcasting.ability = -1;
+
+                break;
             }
         }
     }
@@ -127,9 +144,9 @@ function getSize(size) {
     return sizes.indexOf(size) !== -1 ? sizes.indexOf(size) : -1;
 }
 
-const rawData = fs.readFileSync('./data/5e-SRD-Monsters.json', 'utf-8');
-const monsters = JSON.parse(rawData);
+//const rawData = fs.readFileSync('./data/5e-SRD-Monsters.json', 'utf-8');
+//const monsters = JSON.parse(rawData);
 
-const sanitizedMonsters = sanitizeMonsters(monsters);
+//const sanitizedMonsters = sanitizeMonsters(monsters);
 
-console.log(JSON.stringify(sanitizedMonsters, null, 2));
+//console.log(JSON.stringify(sanitizedMonsters, null, 2));
