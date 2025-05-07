@@ -5,7 +5,7 @@
 // This is just meant to be a neat way to add a large amount of well known D&D monsters into this game.
 //
 // This will not be run or used in the game. It is strictly a development tool.
-// Ex: If at some point I decide that monster proficiencies are relevant to the game, I would add a function to this file that rips monster proficiences from 5e-SRD-Monsters.json and formats those proficiences in a usable way. 
+// Ex: If at some point I decide that monster proficiencies are relevant to the game, I would add a function to this file that rips monster proficiences from 5e-SRD-Monsters.json and formats those proficiences in a usable way.
 
 module.exports = {
     sanitizeMonsters,
@@ -77,71 +77,71 @@ function getSubtype(monster) {
     return monster.subtype !== undefined ? monster.subtype.toString() : "";
 }
 
-function getHitPoints(monster) {
-    if (monster.hit_points === undefined || isNaN(Number(monster.hit_points))) {
-        return -1;
-    }
-    return Number(monster.hit_points);
-}
-
 function getHitPointsRoll(monster) {
     return monster.hit_points_roll !== undefined ? monster.hit_points_roll.toString() : "";
 }
 
-function getStrength(monster) {
-    if (monster.strength === undefined || isNaN(Number(monster.strength))) {
+function getHitPoints(monster) {
+    if (typeof monster.hit_points !== 'number') {
         return -1;
     }
-    return Number(monster.strength);
+    return monster.hit_points;
+}
+
+function getStrength(monster) {
+    if (typeof monster.strength !== 'number') {
+        return -1;
+    }
+    return monster.strength;
 }
 
 function getDexterity(monster) {
-    if (monster.dexterity === undefined || isNaN(Number(monster.dexterity))) {
+    if (typeof monster.dexterity !== 'number') {
         return -1;
     }
-    return Number(monster.dexterity);
+    return monster.dexterity;
 }
 
 function getConstitution(monster) {
-    if (monster.constitution === undefined || isNaN(Number(monster.constitution))) {
+    if (typeof monster.constitution !== 'number') {
         return -1;
     }
-    return Number(monster.constitution);
+    return monster.constitution;
 }
 
 function getIntelligence(monster) {
-    if (monster.intelligence === undefined || isNaN(Number(monster.intelligence))) {
+    if (typeof monster.intelligence !== 'number') {
         return -1;
     }
-    return Number(monster.intelligence);
+    return monster.intelligence;
 }
 
 function getWisdom(monster) {
-    if (monster.wisdom === undefined || isNaN(Number(monster.wisdom))) {
+    if (typeof monster.wisdom !== 'number') {
         return -1;
     }
-    return Number(monster.wisdom);
+    return monster.wisdom;
 }
 
 function getCharisma(monster) {
-    if (monster.charisma === undefined || isNaN(Number(monster.charisma))) {
+    if (typeof monster.charisma !== 'number') {
         return -1;
     }
-    return Number(monster.charisma);
+    return monster.charisma;
 }
 
 function getChallengeRating(monster) {
-    if (monster.challenge_rating === undefined || isNaN(Number(monster.challenge_rating))) {
+    if (typeof monster.challenge_rating !== 'number') {
         return -1;
     }
-    return Number(monster.challenge_rating);
+    return monster.challenge_rating;
 }
 
 function getXP(monster) {
-    if (monster.xp === undefined || isNaN(Number(monster.xp))) {
+    if (typeof monster.xp !== 'number') {
         return -1;
     }
-    return Number(monster.xp);
+    return monster.xp;
 }
 
 // As much as it pains me to just hardcode all the possible values for alignment, I doubt that anything new is being added to this data set.
@@ -303,9 +303,7 @@ function getSpeed(speed) {
         burrow: 0,
         climb: 0,
     }
-    console.log(speed);
     if (speed == undefined) return speedObj;
-    console.log(typeof speed.walk)
     if (typeof speed.walk == "string") {
         let walkSpeed = Number(speed.walk.split(" ")[0])
         if (!isNaN(walkSpeed))
@@ -340,22 +338,29 @@ function getSpellcasting(monster) {
     let spellcasting = {
         has_spellcasting: false,
         level: -1,
-        ability: ""
+        ability: -1
     }
 
     if (monster.special_abilities) {
         for (let i = 0; i < monster.special_abilities.length; i++) {
-            if (monster.special_abilities[i].name === "Spellcasting") {
-                s = monster.special_abilities[i]
+            if (monster.special_abilities[i].name === "Spellcasting" || monster.special_abilities[i].name === "Innate Spellcasting") {
+                s = monster.special_abilities[i].spellcasting
                 spellcasting.has_spellcasting = true;
-                spellcasting.level = s.level == undefined ? -1 : s.level;
+
+                console.log(s)
+
+                if (s.level == undefined || typeof s.level !== 'number') 
+                    spellcasting.level = -1;
+                else 
+                    spellcasting.level = s.level;
+
                 if (s.ability == undefined || s.ability.index == undefined) 
                     spellcasting.ability = -1;
-                else if (s.ability.index == "int") 
+                else if (s.ability.index === "int") 
                     spellcasting.ability = 0;
-                else if (s.ability.index == "wis") 
+                else if (s.ability.index === "wis") 
                     spellcasting.ability = 1;
-                else if (s.ability.index == "cha") 
+                else if (s.ability.index === "cha") 
                     spellcasting.ability = 2;
                 else 
                     spellcasting.ability = -1;
@@ -372,8 +377,8 @@ function getSize(size) {
     return sizes.indexOf(size) !== -1 ? sizes.indexOf(size) : -1;
 }
 
-//const rawData = fs.readFileSync('./data/5e-SRD-Monsters.json', 'utf-8');
-//const monsters = JSON.parse(rawData);
+const rawData = fs.readFileSync('./data/5e-SRD-Monsters.json', 'utf-8');
+const monsters = JSON.parse(rawData);
 
 //const uniqueAlignments = new Set();
 //monsters.forEach(monster => {
@@ -386,6 +391,6 @@ function getSize(size) {
 //console.log("Unique Alignments:");
 //console.log([...uniqueAlignments]);
 
-//const sanitizedMonsters = sanitizeMonsters(monsters);
+const sanitizedMonsters = sanitizeMonsters(monsters);
 
-//console.log(JSON.stringify(sanitizedMonsters, null, 2));
+console.log(JSON.stringify(sanitizedMonsters, null, 2));

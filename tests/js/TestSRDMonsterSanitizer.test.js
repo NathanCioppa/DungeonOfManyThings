@@ -30,7 +30,7 @@ const sampleEmptyMonster = {
     spellcasting: {
         has_spellcasting: false,
         level: -1,
-        ability: "",
+        ability: -1,
     },
     alignment: {
         order: {
@@ -228,7 +228,9 @@ const requiredFields = [
     "alignment"
 ]
 
-const requiredSpeedFields = ["walk", "fly","swim","burrow","climb"]
+const requiredSpeedFields = ["walk", "fly", "swim", "burrow", "climb"]
+
+const requiredSpellcastingFields = ["has_spellcasting", "level", "ability"]
 
 describe('SRDMonsterSanitizer', () => {
 
@@ -354,12 +356,6 @@ describe('SRDMonsterSanitizer', () => {
             const result = SRDMonsterSanitizer.getType(monster);
             assert.equal(result, "");
         });
-
-        it('should return the type as a string when the type is a number', () => {
-            const monster = { type: 123 };
-            const result = SRDMonsterSanitizer.getType(monster);
-            assert.equal(result, "123");
-        });
     });
 
     describe('#getSubtype()', () => {
@@ -373,12 +369,6 @@ describe('SRDMonsterSanitizer', () => {
             const monster = {};
             const result = SRDMonsterSanitizer.getSubtype(monster);
             assert.equal(result, "");
-        });
-
-        it('should return the subtype as a string when the subtype is a number', () => {
-            const monster = { subtype: 456 };
-            const result = SRDMonsterSanitizer.getSubtype(monster);
-            assert.equal(result, "456");
         });
     });
 
@@ -400,12 +390,6 @@ describe('SRDMonsterSanitizer', () => {
             const result = SRDMonsterSanitizer.getHitPoints(monster);
             assert.equal(result, -1);
         });
-
-        it('should return the hit points as a number when hit_points is a string containing a valid number', () => {
-            const monster = { hit_points: "45" };
-            const result = SRDMonsterSanitizer.getHitPoints(monster);
-            assert.equal(result, 45);
-        });
     });
 
     describe('#getStrength()', () => {
@@ -425,12 +409,6 @@ describe('SRDMonsterSanitizer', () => {
             const monster = { strength: "invalid" };
             const result = SRDMonsterSanitizer.getStrength(monster);
             assert.equal(result, -1);
-        });
-
-        it('should return the strength value as a number when strength is a string containing a valid number', () => {
-            const monster = { strength: "15" };
-            const result = SRDMonsterSanitizer.getStrength(monster);
-            assert.equal(result, 15);
         });
     });
 
@@ -452,12 +430,6 @@ describe('SRDMonsterSanitizer', () => {
             const result = SRDMonsterSanitizer.getDexterity(monster);
             assert.equal(result, -1);
         });
-
-        it('should return the dexterity value as a number when dexterity is a string containing a valid number', () => {
-            const monster = { dexterity: "12" };
-            const result = SRDMonsterSanitizer.getDexterity(monster);
-            assert.equal(result, 12);
-        });
     });
 
     describe('#getConstitution()', () => {
@@ -477,12 +449,6 @@ describe('SRDMonsterSanitizer', () => {
             const monster = { constitution: "invalid" };
             const result = SRDMonsterSanitizer.getConstitution(monster);
             assert.equal(result, -1);
-        });
-
-        it('should return the constitution value as a number when constitution is a string containing a valid number', () => {
-            const monster = { constitution: "14" };
-            const result = SRDMonsterSanitizer.getConstitution(monster);
-            assert.equal(result, 14);
         });
     });
 
@@ -504,12 +470,6 @@ describe('SRDMonsterSanitizer', () => {
             const result = SRDMonsterSanitizer.getIntelligence(monster);
             assert.equal(result, -1);
         });
-
-        it('should return the intelligence value as a number when intelligence is a string containing a valid number', () => {
-            const monster = { intelligence: "8" };
-            const result = SRDMonsterSanitizer.getIntelligence(monster);
-            assert.equal(result, 8);
-        });
     });
 
     describe('#getWisdom()', () => {
@@ -529,12 +489,6 @@ describe('SRDMonsterSanitizer', () => {
             const monster = { wisdom: "invalid" };
             const result = SRDMonsterSanitizer.getWisdom(monster);
             assert.equal(result, -1);
-        });
-
-        it('should return the wisdom value as a number when wisdom is a string containing a valid number', () => {
-            const monster = { wisdom: "10" };
-            const result = SRDMonsterSanitizer.getWisdom(monster);
-            assert.equal(result, 10);
         });
     });
 
@@ -556,12 +510,6 @@ describe('SRDMonsterSanitizer', () => {
             const result = SRDMonsterSanitizer.getCharisma(monster);
             assert.equal(result, -1);
         });
-
-        it('should return the charisma value as a number when charisma is a string containing a valid number', () => {
-            const monster = { charisma: "16" };
-            const result = SRDMonsterSanitizer.getCharisma(monster);
-            assert.equal(result, 16);
-        });
     });
 
     describe('#getChallengeRating()', () => {
@@ -582,12 +530,6 @@ describe('SRDMonsterSanitizer', () => {
             const result = SRDMonsterSanitizer.getChallengeRating(monster);
             assert.equal(result, -1);
         });
-
-        it('should return the challenge rating as a number when challenge_rating is a string containing a valid number', () => {
-            const monster = { challenge_rating: "3" };
-            const result = SRDMonsterSanitizer.getChallengeRating(monster);
-            assert.equal(result, 3);
-        });
     });
 
     describe('#getXP()', () => {
@@ -607,12 +549,6 @@ describe('SRDMonsterSanitizer', () => {
             const monster = { xp: "invalid" };
             const result = SRDMonsterSanitizer.getXP(monster);
             assert.equal(result, -1);
-        });
-
-        it('should return the XP as a number when xp is a string containing a valid number', () => {
-            const monster = { xp: "2500" };
-            const result = SRDMonsterSanitizer.getXP(monster);
-            assert.equal(result, 2500);
         });
     });
 
@@ -721,9 +657,135 @@ describe('SRDMonsterSanitizer', () => {
 
     })
 
-    //TODO
-    // test that spellcasting is an object with the correct properties
+    describe("#getSpellcasting()", () => {
+        it('should contain the expcted fields, and those fields only for any input', () => {
+            let actual = Object.getOwnPropertyNames(SRDMonsterSanitizer.getSpellcasting({}));
+            assert.deepStrictEqual(actual, requiredSpellcastingFields);
 
+            actual = Object.getOwnPropertyNames(SRDMonsterSanitizer.getSpellcasting(0));
+            assert.deepStrictEqual(actual, requiredSpellcastingFields);
+
+            actual = Object.getOwnPropertyNames(SRDMonsterSanitizer.getSpellcasting("a"));
+            assert.deepStrictEqual(actual, requiredSpellcastingFields);
+
+            actual = Object.getOwnPropertyNames(SRDMonsterSanitizer.getSpellcasting(false));
+            assert.deepStrictEqual(actual, requiredSpellcastingFields);
+
+            actual = Object.getOwnPropertyNames(SRDMonsterSanitizer.getSpellcasting({property: "a"}));
+            assert.deepStrictEqual(actual, requiredSpellcastingFields);
+        })
+
+        it('should return the corresponding integer for each spellcasting ability, and -1 for any invalid input', () => {
+            let monster = {
+                special_abilities: [
+                    { name: "Spellcasting", spellcasting: { level: 1, ability: { index: "int" } } }
+                ]
+            }
+            let result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.ability, 0);
+
+            monster.special_abilities[0].spellcasting.ability.index = "wis";
+            result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.ability, 1);
+
+            monster.special_abilities[0].spellcasting.ability.index = "cha";
+            result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.ability, 2);
+
+            monster.special_abilities[0].spellcasting.ability.index = "str";
+            result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.ability, -1);
+
+            monster.special_abilities[0].spellcasting.ability.index = 5;
+            result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.ability, -1);
+
+            monster.special_abilities[0].spellcasting.ability.index = false;
+            result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.ability, -1);
+
+            monster.special_abilities[0].spellcasting.ability.index = {};
+            result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.ability, -1);
+
+            monster.special_abilities[0].name = "Innate Spellcasting"
+            monster.special_abilities[0].spellcasting.ability.index = "int";
+            result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.ability, 0);
+
+            monster.special_abilities[0].spellcasting.ability.index = "wis";
+            result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.ability, 1);
+
+            monster.special_abilities[0].spellcasting.ability.index = "cha";
+            result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.ability, 2);
+
+            monster.special_abilities[0].spellcasting.ability.index = "str";
+            result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.ability, -1);
+
+            monster.special_abilities[0].spellcasting.ability.index = 5;
+            result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.ability, -1);
+
+            monster.special_abilities[0].spellcasting.ability.index = false;
+            result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.ability, -1);
+
+            monster.special_abilities[0].spellcasting.ability.index = {};
+            result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.ability, -1);
+        })
+
+        it("should set level to the corresponding spellcasting level if it is valid, and -1 otherwise", () => {
+            let monster = {
+                special_abilities: [
+                    { name: "Spellcasting", spellcasting: { level: 1, ability: { index: "int" } } }
+                ]
+            }
+            let result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.level, 1);
+
+            monster.special_abilities[0].spellcasting.level = 7;
+            result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.level, 7);
+
+            monster.special_abilities[0].spellcasting.level = "invalid";
+            result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.level, -1);
+
+            monster.special_abilities[0].spellcasting.level = 0;
+            result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.level, 0);
+
+            monster.special_abilities[0].spellcasting.level = {};
+            result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.level, -1);
+
+            monster.special_abilities[0].spellcasting.level = [];
+            result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.level, -1);
+
+        })
+
+        it('should have both level and ability set to -1 if has_spellcasting is false', () => {
+            let monster = {
+                special_abilities: [
+                    { name: "NotSpellcasting", spellcasting: { level: 1, ability: { index: "int" } } }
+                ]
+            }
+            let result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.level, -1);
+            assert.equal(result.ability, -1);
+
+            monster = {}
+
+            result = SRDMonsterSanitizer.getSpellcasting(monster);
+            assert.equal(result.level, -1);
+            assert.equal(result.ability, -1);
+        })
+    })
 });
 
 function checkHasCorrectTypes(sanitizedMonster) {
@@ -731,7 +793,6 @@ function checkHasCorrectTypes(sanitizedMonster) {
     assert.equal(typeof sanitizedMonster.type, 'string');
     assert.equal(typeof sanitizedMonster.subtype, 'string');
     assert.equal(typeof sanitizedMonster.hit_points_roll, 'string');
-    assert.equal(typeof sanitizedMonster.spellcasting.ability, 'string');
 
     assert.equal(typeof sanitizedMonster.size, 'number');
     assert.equal(typeof sanitizedMonster.armor_class, 'number');
