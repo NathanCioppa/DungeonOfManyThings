@@ -387,8 +387,8 @@ function getSize(size) {
     return sizes.indexOf(size) !== -1 ? sizes.indexOf(size) : -1;
 }
 
-const rawData = fs.readFileSync('./data/5e-SRD-Monsters.json', 'utf-8');
-const monsters = JSON.parse(rawData);
+//const rawData = fs.readFileSync('./data/5e-SRD-Monsters.json', 'utf-8');
+//const monsters = JSON.parse(rawData);
 
 //const uniqueAlignments = new Set();
 //monsters.forEach(monster => {
@@ -400,8 +400,5 @@ const monsters = JSON.parse(rawData);
 // Output all unique alignments
 //console.log("Unique Alignments:");
 //console.log([...uniqueAlignments]);
-
-const sanitizedMonsters = sanitizeMonsters(monsters);
-fs.writeFileSync('./data/monsters.json', JSON.stringify(sanitizedMonsters, null, 2));
 
 //console.log(JSON.stringify(sanitizedMonsters, null, 2));
