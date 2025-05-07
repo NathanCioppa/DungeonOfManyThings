@@ -78,7 +78,11 @@ function getSubtype(monster) {
 }
 
 function getHitPointsRoll(monster) {
-    return monster.hit_points_roll !== undefined ? monster.hit_points_roll.toString() : "";
+    const validHitPointRollRegex = /^\d+d\d+(?:[-+]\d+)?$/
+    if (monster.hit_points_roll == undefined)
+        return ""
+
+    return validHitPointRollRegex.test(monster.hit_points_roll) ? monster.hit_points_roll : "";
 }
 
 function getHitPoints(monster) {
@@ -347,12 +351,18 @@ function getSpellcasting(monster) {
                 s = monster.special_abilities[i].spellcasting
                 spellcasting.has_spellcasting = true;
 
-                console.log(s)
-
                 if (s.level == undefined || typeof s.level !== 'number') 
                     spellcasting.level = -1;
                 else 
                     spellcasting.level = s.level;
+
+                if (monster.special_abilities[i].name === "Innate Spellcasting") {
+                    for (let i = 0; i < s.spells.length; i++) {
+                        if (s.spells[i].level > spellcasting.level) {
+                            spellcasting.level = s.spells[i].level;
+                        }
+                    }
+                }
 
                 if (s.ability == undefined || s.ability.index == undefined) 
                     spellcasting.ability = -1;
@@ -392,5 +402,6 @@ const monsters = JSON.parse(rawData);
 //console.log([...uniqueAlignments]);
 
 const sanitizedMonsters = sanitizeMonsters(monsters);
+fs.writeFileSync('./data/monsters.json', JSON.stringify(sanitizedMonsters, null, 2));
 
-console.log(JSON.stringify(sanitizedMonsters, null, 2));
+//console.log(JSON.stringify(sanitizedMonsters, null, 2));

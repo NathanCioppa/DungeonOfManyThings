@@ -642,7 +642,6 @@ describe('SRDMonsterSanitizer', () => {
         })
         it('should return 0 in all fields and all fields should be present if an invalid speed is given', () => {
             let actual = SRDMonsterSanitizer.getSpeed({ walk: "invalid", swim: 5 });
-            console.log(actual)
             assert.deepStrictEqual(actual, sampleEmptyMonster.speed)
 
             actual = SRDMonsterSanitizer.getSpeed(7);
@@ -678,7 +677,7 @@ describe('SRDMonsterSanitizer', () => {
         it('should return the corresponding integer for each spellcasting ability, and -1 for any invalid input', () => {
             let monster = {
                 special_abilities: [
-                    { name: "Spellcasting", spellcasting: { level: 1, ability: { index: "int" } } }
+                    { name: "Spellcasting", spellcasting: { level: 1, ability: { index: "int" }, spells: [{level:5}] } }
                 ]
             }
             let result = SRDMonsterSanitizer.getSpellcasting(monster);
