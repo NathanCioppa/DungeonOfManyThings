@@ -22,8 +22,34 @@ function getAllCategories(items) {
 const possibleCategories = ["Weapon", "Armor", "Adventuring Gear", "Tools", "Mounts and Vehicles"]
 // determined from getAllCategories, i just needed to know all values
 
+function sanitizeItems(items) {
+    let sanitizedItems = [];
+    items.map(item => {
+        sanitizedItems.push(sanitizeItem(item))
+    })
+    return sanitizedItems
+}
 
+function sanitizeItem(item) {
+    return {
+        name: getName(item),
+        type: getType(item)
+    }
+}
 
+function getName(item) {
+    if (typeof item.name !== 'string') return ""
 
-console.log( getAllCategories(items));
+    let name = item.name
+    let nameNoParens = ""
+    for (let i = 0; i < name.length; i++) {
+        if (name[i] === "(") break
+        nameNoParens+= name[i]
+    }
+    return nameNoParens.trim()
+}
 
+function getType(item) {
+    if(!item.equipment_category) return ""
+    return typeof item.equipment_category.name === 'string' ? item.equipment_category.name : ""
+}
