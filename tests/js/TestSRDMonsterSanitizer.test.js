@@ -1,4 +1,4 @@
-const SRDMonsterSanitizer = require('../../DungeonOfManyThings/data_tools/SRDMonsterSanitizer');
+const SRDMonsterSanitizer = require('../../data_tools/SRDMonsterSanitizer');
 const assert = require('assert');
 
 // Testing done with Mocha, https://github.com/mochajs/mocha

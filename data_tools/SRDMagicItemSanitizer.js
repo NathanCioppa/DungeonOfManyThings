@@ -2,10 +2,18 @@
 // Not used by the game
 // Strictly a development tool
 
-const fs = require('fs');
+//const fs = require('fs');
 
-const rawData = fs.readFileSync('./data/5e-SRD-Magic-Items.json', 'utf-8');
-const items = JSON.parse(rawData);
+//const rawData = fs.readFileSync('./data/5e-SRD-Magic-Items.json', 'utf-8');
+//const items = JSON.parse(rawData);
+
+module.exports = {
+    sanitizeMagicItems,
+    sanitizeMagicItem,
+    getName,
+    getRarity,
+    getType
+}
 
 function getAllCategories(items) {
     const categories = new Set();
@@ -56,15 +64,17 @@ function sanitizeMagicItems(items) {
         console.warn('Input is not an array, returning empty array');
         return [];
     }
-    return items.map(item => {
+    let sanitizedItems = []
+    items.map(item => {
         if (item.rarity.name !== 'Varies')
-            sanitizeMagicItem(item);
+            sanitizedItems.push(sanitizeMagicItem(item));
     })
+    return sanitizedItems;
 }
 
 function sanitizeMagicItem(item) {
     return {
-        getName: getName(item),
+        name: getName(item),
         rarity: getRarity(item),
         type: getType(item)
     }
@@ -77,17 +87,17 @@ function getName(item) {
 // every item of the Varies rarity has its varients also listed as separate items, so anthing with that rarity will not be added to the data
 
 function getRarity(item) {
-    if (item.rarity === "Common")
+    if (item.rarity.name === "Common")
         return 1;
-    if (item.rarity === "Uncommon")
+    if (item.rarity.name === "Uncommon")
         return 2;
-    if (item.rarity === "Rare")
+    if (item.rarity.name === "Rare")
         return 3;
-    if (item.rarity === "Very Rare")
+    if (item.rarity.name === "Very Rare")
         return 4;
-    if (item.rarity === "Legendary")
+    if (item.rarity.name === "Legendary")
         return 5;
-    if (item.rarity === "Artifact")
+    if (item.rarity.name === "Artifact")
         return 6;
     return -1
 }
