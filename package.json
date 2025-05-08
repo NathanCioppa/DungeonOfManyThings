@@ -4,5 +4,8 @@
   },
   "scripts": {
     "test": "mocha tests/js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   }
 }
