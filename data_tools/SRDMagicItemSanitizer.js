@@ -2,14 +2,14 @@
 // Not used by the game
 // Strictly a development tool
 
-const fs = require('fs');
+//const fs = require('fs');
 
-const rawData = fs.readFileSync('./data/5e-SRD-Magic-Items.json', 'utf-8');
-let items = JSON.parse(rawData);
+//const rawData = fs.readFileSync('./data/5e-SRD-Magic-Items.json', 'utf-8');
+//let items = JSON.parse(rawData);
 
-items = sanitizeMagicItems(items);
+//items = sanitizeMagicItems(items);
 
-fs.writeFileSync('./DungeonOfManyThings/data/magic-items.json', JSON.stringify(items, null, 2), 'utf-8');
+//fs.writeFileSync('./DungeonOfManyThings/data/magic-items.json', JSON.stringify(items, null, 2), 'utf-8');
 
 module.exports = {
     sanitizeMagicItems,

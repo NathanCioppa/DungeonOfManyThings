@@ -1,0 +1,950 @@
+[
+  {
+    "name": "Club",
+    "type": "Weapon"
+  },
+  {
+    "name": "Dagger",
+    "type": "Weapon"
+  },
+  {
+    "name": "Greatclub",
+    "type": "Weapon"
+  },
+  {
+    "name": "Handaxe",
+    "type": "Weapon"
+  },
+  {
+    "name": "Javelin",
+    "type": "Weapon"
+  },
+  {
+    "name": "Light hammer",
+    "type": "Weapon"
+  },
+  {
+    "name": "Mace",
+    "type": "Weapon"
+  },
+  {
+    "name": "Quarterstaff",
+    "type": "Weapon"
+  },
+  {
+    "name": "Sickle",
+    "type": "Weapon"
+  },
+  {
+    "name": "Spear",
+    "type": "Weapon"
+  },
+  {
+    "name": "Crossbow, light",
+    "type": "Weapon"
+  },
+  {
+    "name": "Dart",
+    "type": "Weapon"
+  },
+  {
+    "name": "Shortbow",
+    "type": "Weapon"
+  },
+  {
+    "name": "Sling",
+    "type": "Weapon"
+  },
+  {
+    "name": "Battleaxe",
+    "type": "Weapon"
+  },
+  {
+    "name": "Flail",
+    "type": "Weapon"
+  },
+  {
+    "name": "Glaive",
+    "type": "Weapon"
+  },
+  {
+    "name": "Greataxe",
+    "type": "Weapon"
+  },
+  {
+    "name": "Greatsword",
+    "type": "Weapon"
+  },
+  {
+    "name": "Halberd",
+    "type": "Weapon"
+  },
+  {
+    "name": "Lance",
+    "type": "Weapon"
+  },
+  {
+    "name": "Longsword",
+    "type": "Weapon"
+  },
+  {
+    "name": "Maul",
+    "type": "Weapon"
+  },
+  {
+    "name": "Morningstar",
+    "type": "Weapon"
+  },
+  {
+    "name": "Pike",
+    "type": "Weapon"
+  },
+  {
+    "name": "Rapier",
+    "type": "Weapon"
+  },
+  {
+    "name": "Scimitar",
+    "type": "Weapon"
+  },
+  {
+    "name": "Shortsword",
+    "type": "Weapon"
+  },
+  {
+    "name": "Trident",
+    "type": "Weapon"
+  },
+  {
+    "name": "War pick",
+    "type": "Weapon"
+  },
+  {
+    "name": "Warhammer",
+    "type": "Weapon"
+  },
+  {
+    "name": "Whip",
+    "type": "Weapon"
+  },
+  {
+    "name": "Blowgun",
+    "type": "Weapon"
+  },
+  {
+    "name": "Crossbow, hand",
+    "type": "Weapon"
+  },
+  {
+    "name": "Crossbow, heavy",
+    "type": "Weapon"
+  },
+  {
+    "name": "Longbow",
+    "type": "Weapon"
+  },
+  {
+    "name": "Net",
+    "type": "Weapon"
+  },
+  {
+    "name": "Padded Armor",
+    "type": "Armor"
+  },
+  {
+    "name": "Leather Armor",
+    "type": "Armor"
+  },
+  {
+    "name": "Studded Leather Armor",
+    "type": "Armor"
+  },
+  {
+    "name": "Hide Armor",
+    "type": "Armor"
+  },
+  {
+    "name": "Chain Shirt",
+    "type": "Armor"
+  },
+  {
+    "name": "Scale Mail",
+    "type": "Armor"
+  },
+  {
+    "name": "Breastplate",
+    "type": "Armor"
+  },
+  {
+    "name": "Half Plate Armor",
+    "type": "Armor"
+  },
+  {
+    "name": "Ring Mail",
+    "type": "Armor"
+  },
+  {
+    "name": "Chain Mail",
+    "type": "Armor"
+  },
+  {
+    "name": "Splint Armor",
+    "type": "Armor"
+  },
+  {
+    "name": "Plate Armor",
+    "type": "Armor"
+  },
+  {
+    "name": "Shield",
+    "type": "Armor"
+  },
+  {
+    "name": "Abacus",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Acid",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Alchemist's fire",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Alms box",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Arrow",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Block of incense",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Blowgun needle",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Censer",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Crossbow bolt",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Sling bullet",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Amulet",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Antitoxin",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Crystal",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Orb",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Rod",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Staff",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Wand",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Backpack",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Ball bearings",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Barrel",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Basket",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Bedroll",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Bell",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Blanket",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Block and tackle",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Book",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Bottle, glass",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Bucket",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Caltrops",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Candle",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Case, crossbow bolt",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Case, map or scroll",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Chain",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Chalk",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Chest",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Clothes, common",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Clothes, costume",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Clothes, fine",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Clothes, traveler's",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Component pouch",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Crowbar",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Sprig of mistletoe",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Totem",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Wooden staff",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Yew wand",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Emblem",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Fishing tackle",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Flask or tankard",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Grappling hook",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Hammer",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Hammer, sledge",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Holy water",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Hourglass",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Hunting trap",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Ink",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Ink pen",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Jug or pitcher",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Climber's Kit",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Disguise Kit",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Forgery Kit",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Herbalism Kit",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Healer's Kit",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Mess Kit",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Poisoner's Kit",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Ladder",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Lamp",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Lantern, bullseye",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Lantern, hooded",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Little bag of sand",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Lock",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Magnifying glass",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Manacles",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Mirror, steel",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Oil",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Paper",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Parchment",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Perfume",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Pick, miner's",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Piton",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Poison, basic",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Pole",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Pot, iron",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Pouch",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Quiver",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Ram, portable",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Rations",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Reliquary",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Robes",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Rope, hempen",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Rope, silk",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Sack",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Scale, merchant's",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Sealing wax",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Shovel",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Signal whistle",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Signet ring",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Small knife",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Soap",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Spellbook",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Spike, iron",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Spyglass",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "String",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Tent, two-person",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Tinderbox",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Torch",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Vestments",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Vial",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Waterskin",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Whetstone",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Burglar's Pack",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Diplomat's Pack",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Dungeoneer's Pack",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Entertainer's Pack",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Explorer's Pack",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Priest's Pack",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Scholar's Pack",
+    "type": "Adventuring Gear"
+  },
+  {
+    "name": "Alchemist's Supplies",
+    "type": "Tools"
+  },
+  {
+    "name": "Brewer's Supplies",
+    "type": "Tools"
+  },
+  {
+    "name": "Calligrapher's Supplies",
+    "type": "Tools"
+  },
+  {
+    "name": "Carpenter's Tools",
+    "type": "Tools"
+  },
+  {
+    "name": "Cartographer's Tools",
+    "type": "Tools"
+  },
+  {
+    "name": "Cobbler's Tools",
+    "type": "Tools"
+  },
+  {
+    "name": "Cook's utensils",
+    "type": "Tools"
+  },
+  {
+    "name": "Glassblower's Tools",
+    "type": "Tools"
+  },
+  {
+    "name": "Jeweler's Tools",
+    "type": "Tools"
+  },
+  {
+    "name": "Leatherworker's Tools",
+    "type": "Tools"
+  },
+  {
+    "name": "Mason's Tools",
+    "type": "Tools"
+  },
+  {
+    "name": "Painter's Supplies",
+    "type": "Tools"
+  },
+  {
+    "name": "Potter's Tools",
+    "type": "Tools"
+  },
+  {
+    "name": "Smith's Tools",
+    "type": "Tools"
+  },
+  {
+    "name": "Tinker's Tools",
+    "type": "Tools"
+  },
+  {
+    "name": "Weaver's Tools",
+    "type": "Tools"
+  },
+  {
+    "name": "Woodcarver's Tools",
+    "type": "Tools"
+  },
+  {
+    "name": "Dice Set",
+    "type": "Tools"
+  },
+  {
+    "name": "Playing Card Set",
+    "type": "Tools"
+  },
+  {
+    "name": "Bagpipes",
+    "type": "Tools"
+  },
+  {
+    "name": "Drum",
+    "type": "Tools"
+  },
+  {
+    "name": "Dulcimer",
+    "type": "Tools"
+  },
+  {
+    "name": "Flute",
+    "type": "Tools"
+  },
+  {
+    "name": "Lute",
+    "type": "Tools"
+  },
+  {
+    "name": "Lyre",
+    "type": "Tools"
+  },
+  {
+    "name": "Horn",
+    "type": "Tools"
+  },
+  {
+    "name": "Pan flute",
+    "type": "Tools"
+  },
+  {
+    "name": "Shawm",
+    "type": "Tools"
+  },
+  {
+    "name": "Viol",
+    "type": "Tools"
+  },
+  {
+    "name": "Navigator's Tools",
+    "type": "Tools"
+  },
+  {
+    "name": "Thieves' Tools",
+    "type": "Tools"
+  },
+  {
+    "name": "Camel",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Donkey",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Mule",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Elephant",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Horse, draft",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Horse, riding",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Mastiff",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Pony",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Warhorse",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Barding: Padded",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Barding: Leather",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Barding: Studded Leather",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Barding: Hide",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Barding: Chain shirt",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Barding: Scale mail",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Barding: Breastplate",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Barding: Half plate",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Barding: Ring mail",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Barding: Chain mail",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Barding: Splint",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Barding: Plate",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Bit and bridle",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Carriage",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Cart",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Chariot",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Animal Feed",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Saddle, Exotic",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Saddle, Military",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Saddle, Pack",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Saddle, Riding",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Saddlebags",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Sled",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Stabling",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Wagon",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Galley",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Keelboat",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Longship",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Rowboat",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Sailing ship",
+    "type": "Mounts and Vehicles"
+  },
+  {
+    "name": "Warship",
+    "type": "Mounts and Vehicles"
+  }
+]

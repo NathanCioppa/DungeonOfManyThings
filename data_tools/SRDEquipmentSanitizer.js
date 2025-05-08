@@ -2,10 +2,14 @@
 // Pulls items from 5e-SRD-Equipment.json and formats them into a json file usable by the game
 // json in this project copied from https://github.com/5e-bits/5e-database/blob/main/src/2014/5e-SRD-Equipment.json
 
-const fs = require('fs');
+//const fs = require('fs');
 
-const rawData = fs.readFileSync('./data/5e-SRD-Equipment.json', 'utf-8');
-const items = JSON.parse(rawData);
+//const rawData = fs.readFileSync('./data/5e-SRD-Equipment.json', 'utf-8');
+//let items = JSON.parse(rawData);
+
+//items = sanitizeItems(items);
+
+//fs.writeFileSync('./DungeonOfManyThings/data/non-magic-items.json', JSON.stringify(items, null, 2));
 
 function getAllCategories(items) {
   const categories = new Set();
@@ -37,6 +41,7 @@ function sanitizeItem(item) {
     }
 }
 
+// remove parenthesized parts of names
 function getName(item) {
     if (typeof item.name !== 'string') return ""
 
