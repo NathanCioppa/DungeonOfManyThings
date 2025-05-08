@@ -1,0 +1,1757 @@
+[
+  {
+    "name": "Adamantine Armor",
+    "rarity": 2,
+    "type": 0
+  },
+  {
+    "name": "Ammunition, +1",
+    "rarity": 2,
+    "type": 1
+  },
+  {
+    "name": "Ammunition, +2",
+    "rarity": 3,
+    "type": 1
+  },
+  {
+    "name": "Ammunition, +3",
+    "rarity": 4,
+    "type": 1
+  },
+  {
+    "name": "Amulet of Health",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Amulet of Proof against Detection and Location",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Amulet of the Planes",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Animated Shield",
+    "rarity": 4,
+    "type": 0
+  },
+  {
+    "name": "Apparatus of the Crab",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Armor, +1",
+    "rarity": 3,
+    "type": 0
+  },
+  {
+    "name": "Armor, +2",
+    "rarity": 4,
+    "type": 0
+  },
+  {
+    "name": "Armor, +3",
+    "rarity": 5,
+    "type": 0
+  },
+  {
+    "name": "Armor of Invulnerability",
+    "rarity": 5,
+    "type": 0
+  },
+  {
+    "name": "Armor of Resistance",
+    "rarity": 3,
+    "type": 0
+  },
+  {
+    "name": "Armor of Vulnerability",
+    "rarity": 3,
+    "type": 0
+  },
+  {
+    "name": "Arrow-Catching Shield",
+    "rarity": 3,
+    "type": 0
+  },
+  {
+    "name": "Arrow of Slaying",
+    "rarity": 4,
+    "type": 1
+  },
+  {
+    "name": "Bag of Beans",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Bag of Devouring",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Bag of Holding",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Bag of Tricks",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Gray Bag of Tricks",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Rust Bag of Tricks",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Tan Bag of Tricks",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Bead of Force",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Belt of Dwarvenkind",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Belt of Hill Giant Strength",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Belt of Stone Giant Strength",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Belt of Frost Giant Strength",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Belt of Fire Giant Strength",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Belt of Cloud Giant Strength",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Belt of Storm Giant Strength",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Berserker Axe",
+    "rarity": 3,
+    "type": 3
+  },
+  {
+    "name": "Boots of Elvenkind",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Boots of Levitation",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Boots of Speed",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Boots of Striding and Springing",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Boots of the Winterlands",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Bowl of Commanding Water Elementals",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Bracers of Archery",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Bracers of Defense",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Brazier of Commanding Fire Elementals",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Brooch of Shielding",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Broom of Flying",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Candle of Invocation",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Cape of the Mountebank",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Carpet of Flying",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Carpet of Flying (3 ft. � 5 ft.)",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Carpet of Flying (4 ft. � 6 ft.)",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Carpet of Flying (5 ft. � 7 ft.)",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Carpet of Flying (6 ft. � 9 ft.)",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Censer of Controlling Air Elementals",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Chime of Opening",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Circlet of Blasting",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Cloak of Arachnida",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Cloak of Displacement",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Cloak of Elvenkind",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Cloak of Protection",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Cloak of the Bat",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Cloak of the Manta Ray",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Crystal Ball",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Crystal Ball of Mind Reading",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Crystal Ball of Telepathy",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Crystal Ball of True Seeing",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Cube of Force",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Cubic Gate",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Dagger of Venom",
+    "rarity": 3,
+    "type": 3
+  },
+  {
+    "name": "Dancing Sword",
+    "rarity": 4,
+    "type": 3
+  },
+  {
+    "name": "Decanter of Endless Water",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Deck of Illusions",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Deck of Many Things",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Defender",
+    "rarity": 5,
+    "type": 3
+  },
+  {
+    "name": "Demon Armor",
+    "rarity": 4,
+    "type": 0
+  },
+  {
+    "name": "Dimensional Shackles",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Dragon Scale Mail",
+    "rarity": 4,
+    "type": 0
+  },
+  {
+    "name": "Black Dragon Scale Mail",
+    "rarity": 4,
+    "type": 0
+  },
+  {
+    "name": "Blue Dragon Scale Mail",
+    "rarity": 4,
+    "type": 0
+  },
+  {
+    "name": "Brass Dragon Scale Mail",
+    "rarity": 4,
+    "type": 0
+  },
+  {
+    "name": "Bronze Dragon Scale Mail",
+    "rarity": 4,
+    "type": 0
+  },
+  {
+    "name": "Copper Dragon Scale Mail",
+    "rarity": 4,
+    "type": 0
+  },
+  {
+    "name": "Gold Dragon Scale Mail",
+    "rarity": 4,
+    "type": 0
+  },
+  {
+    "name": "Green Dragon Scale Mail",
+    "rarity": 4,
+    "type": 0
+  },
+  {
+    "name": "Red Dragon Scale Mail",
+    "rarity": 4,
+    "type": 0
+  },
+  {
+    "name": "Silver Dragon Scale Mail",
+    "rarity": 4,
+    "type": 0
+  },
+  {
+    "name": "White Dragon Scale Mail",
+    "rarity": 4,
+    "type": 0
+  },
+  {
+    "name": "Dragon Slayer",
+    "rarity": 3,
+    "type": 3
+  },
+  {
+    "name": "Dust of Disappearance",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Dust of Dryness",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Dust of Sneezing and Choking",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Dwarven Plate",
+    "rarity": 4,
+    "type": 0
+  },
+  {
+    "name": "Dwarven Thrower",
+    "rarity": 4,
+    "type": 3
+  },
+  {
+    "name": "Efficient Quiver",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Efreeti Bottle",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Elemental Gem",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Air Elemental Gem",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Earth Elemental Gem",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Fire Elemental Gem",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Water Elemental Gem",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Elven Chain",
+    "rarity": 3,
+    "type": 0
+  },
+  {
+    "name": "Eversmoking Bottle",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Eyes of Charming",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Eyes of Minute Seeing",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Eyes of the Eagle",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Feather Token",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Anchor Feather Token",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Bird Feather Token",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Fan Feather Token",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Swan Boat Feather Token",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Tree Feather Token",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Whip Feather Token",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Bronze Griffon Figurine of Wondrous Power",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Ebony Fly Figurine of Wondrous Power",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Golden Lions Figurine of Wondrous Power",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Ivory Goats Figurine of Wondrous Power",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Marble Elephant Figurine of Wondrous Power",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Obsidian Steed Figurine of Wondrous Power",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Onyx Dog Figurine of Wondrous Power",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Serpentine Owl Figurine of Wondrous Power",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Silver Raven Figurine of Wondrous Power",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Flame Tongue",
+    "rarity": 3,
+    "type": 3
+  },
+  {
+    "name": "Folding Boat",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Frost Brand",
+    "rarity": 4,
+    "type": 3
+  },
+  {
+    "name": "Gauntlets of Ogre Power",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Gem of Brightness",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Gem of Seeing",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Giant Slayer",
+    "rarity": 3,
+    "type": 3
+  },
+  {
+    "name": "Glamoured Studded Leather Armor",
+    "rarity": 3,
+    "type": 0
+  },
+  {
+    "name": "Gloves of Missile Snaring",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Gloves of Swimming and Climbing",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Goggles of Night",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Hammer of Thunderbolts",
+    "rarity": 5,
+    "type": 3
+  },
+  {
+    "name": "Handy Haversack",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Hat of Disguise",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Headband of Intellect",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Helm of Brilliance",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Helm of Comprehending Languages",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Helm of Telepathy",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Helm of Teleportation",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Holy Avenger",
+    "rarity": 5,
+    "type": 3
+  },
+  {
+    "name": "Horn of Blasting",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Silver Horn of Valhalla",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Brass Horn of Valhalla",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Bronze Horn of Valhalla",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Iron Horn of Valhalla",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Horseshoes of a Zephyr",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Horseshoes of Speed",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Immovable Rod",
+    "rarity": 2,
+    "type": 4
+  },
+  {
+    "name": "Instant Fortress",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Ioun Stone of Absorption",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Ioun Stone of Agility",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Ioun Stone of Awareness",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Ioun Stone of Fortitude",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Ioun Stone of Greater Absorption",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Ioun Stone of Insight",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Ioun Stone of Intellect",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Ioun Stone of Leadership",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Ioun Stone of Mastery",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Ioun Stone of Protection",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Ioun Stone of Regeneration",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Ioun Stone of Reserve",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Ioun Stone of Strength",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Ioun Stone of Sustenance",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Iron Bands of Binding",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Iron Flask",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Javelin of Lightning",
+    "rarity": 2,
+    "type": 3
+  },
+  {
+    "name": "Lantern of Revealing",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Luck Blade",
+    "rarity": 5,
+    "type": 3
+  },
+  {
+    "name": "Mace of Disruption",
+    "rarity": 3,
+    "type": 3
+  },
+  {
+    "name": "Mace of Smiting",
+    "rarity": 3,
+    "type": 3
+  },
+  {
+    "name": "Mace of Terror",
+    "rarity": 3,
+    "type": 3
+  },
+  {
+    "name": "Mantle of Spell Resistance",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Manual of Bodily Health",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Manual of Gainful Exercise",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Manual of Golems",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Manual of Clay Golems",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Manual of Flesh Golems",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Manual of Iron Golems",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Manual of Stone Golems",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Manual of Quickness of Action",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Marvelous Pigments",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Medallion of Thoughts",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Mirror of Life Trapping",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Mithral Armor",
+    "rarity": 2,
+    "type": 0
+  },
+  {
+    "name": "Necklace of Adaptation",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Necklace of Fireballs",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Necklace of Prayer Beads",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Nine Lives Stealer",
+    "rarity": 4,
+    "type": 3
+  },
+  {
+    "name": "Oathbow",
+    "rarity": 4,
+    "type": 3
+  },
+  {
+    "name": "Oil of Etherealness",
+    "rarity": 3,
+    "type": 5
+  },
+  {
+    "name": "Oil of Sharpness",
+    "rarity": 4,
+    "type": 5
+  },
+  {
+    "name": "Oil of Slipperiness",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Pearl of Power",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Periapt of Health",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Periapt of Proof against Poison",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Periapt of Wound Closure",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Philter of Love",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Pipes of Haunting",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Pipes of the Sewers",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Plate Armor of Etherealness",
+    "rarity": 5,
+    "type": 0
+  },
+  {
+    "name": "Portable Hole",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Potion of Animal Friendship",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Potion of Clairvoyance",
+    "rarity": 3,
+    "type": 5
+  },
+  {
+    "name": "Potion of Climbing",
+    "rarity": 1,
+    "type": 5
+  },
+  {
+    "name": "Potion of Diminution",
+    "rarity": 3,
+    "type": 5
+  },
+  {
+    "name": "Potion of Flying",
+    "rarity": 4,
+    "type": 5
+  },
+  {
+    "name": "Potion of Gaseous Form",
+    "rarity": 3,
+    "type": 5
+  },
+  {
+    "name": "Potion of Hill Giant Strength",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Potion of Frost Giant Strength",
+    "rarity": 3,
+    "type": 5
+  },
+  {
+    "name": "Potion of Stone Giant Strength",
+    "rarity": 3,
+    "type": 5
+  },
+  {
+    "name": "Potion of Fire Giant Strength",
+    "rarity": 3,
+    "type": 5
+  },
+  {
+    "name": "Potion of Cloud Giant Strength",
+    "rarity": 4,
+    "type": 5
+  },
+  {
+    "name": "Potion of Storm Giant Strength",
+    "rarity": 5,
+    "type": 5
+  },
+  {
+    "name": "Potion of Growth",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Potion of Healing",
+    "rarity": 1,
+    "type": 5
+  },
+  {
+    "name": "Potion of Greater Healing",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Potion of Superior Healing",
+    "rarity": 3,
+    "type": 5
+  },
+  {
+    "name": "Potion of Supreme Healing",
+    "rarity": 4,
+    "type": 5
+  },
+  {
+    "name": "Potion of Heroism",
+    "rarity": 3,
+    "type": 5
+  },
+  {
+    "name": "Potion of Invisibility",
+    "rarity": 4,
+    "type": 5
+  },
+  {
+    "name": "Potion of Mind Reading",
+    "rarity": 3,
+    "type": 5
+  },
+  {
+    "name": "Potion of Poison",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Potion of Resistance",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Potion of Acid Resistance",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Potion of Cold Resistance",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Potion of Fire Resistance",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Potion of Force Resistance",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Potion of Lightning Resistance",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Potion of Necrotic Resistance",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Potion of Poison Resistance",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Potion of Psychic Resistance",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Potion of Radiant Resistance",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Potion of Thunder Resistance",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Potion of Speed",
+    "rarity": 4,
+    "type": 5
+  },
+  {
+    "name": "Potion of Water Breathing",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Restorative Ointment",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Ring of Animal Influence",
+    "rarity": 3,
+    "type": 6
+  },
+  {
+    "name": "Ring of Djinni Summoning",
+    "rarity": 5,
+    "type": 6
+  },
+  {
+    "name": "Ring of Elemental Command",
+    "rarity": 5,
+    "type": 6
+  },
+  {
+    "name": "Ring of Air Elemental Command",
+    "rarity": 5,
+    "type": 6
+  },
+  {
+    "name": "Ring of Earth Elemental Command",
+    "rarity": 5,
+    "type": 6
+  },
+  {
+    "name": "Ring of Fire Elemental Command",
+    "rarity": 5,
+    "type": 6
+  },
+  {
+    "name": "Ring of Water Elemental Command",
+    "rarity": 5,
+    "type": 6
+  },
+  {
+    "name": "Ring of Evasion",
+    "rarity": 3,
+    "type": 6
+  },
+  {
+    "name": "Ring of Feather Falling",
+    "rarity": 3,
+    "type": 6
+  },
+  {
+    "name": "Ring of Free Action",
+    "rarity": 3,
+    "type": 6
+  },
+  {
+    "name": "Ring of Invisibility",
+    "rarity": 5,
+    "type": 6
+  },
+  {
+    "name": "Ring of Jumping",
+    "rarity": 2,
+    "type": 6
+  },
+  {
+    "name": "Ring of Mind Shielding",
+    "rarity": 2,
+    "type": 6
+  },
+  {
+    "name": "Ring of Protection",
+    "rarity": 3,
+    "type": 6
+  },
+  {
+    "name": "Ring of Regeneration",
+    "rarity": 4,
+    "type": 6
+  },
+  {
+    "name": "Ring of Resistance",
+    "rarity": 3,
+    "type": 6
+  },
+  {
+    "name": "Ring of Acid Resistance",
+    "rarity": 3,
+    "type": 6
+  },
+  {
+    "name": "Ring of Cold Resistance",
+    "rarity": 3,
+    "type": 6
+  },
+  {
+    "name": "Ring of Fire Resistance",
+    "rarity": 3,
+    "type": 6
+  },
+  {
+    "name": "Ring of Force Resistance",
+    "rarity": 3,
+    "type": 6
+  },
+  {
+    "name": "Ring of Lightning Resistance",
+    "rarity": 3,
+    "type": 6
+  },
+  {
+    "name": "Ring of Necrotic Resistance",
+    "rarity": 3,
+    "type": 6
+  },
+  {
+    "name": "Ring of Poison Resistance",
+    "rarity": 3,
+    "type": 6
+  },
+  {
+    "name": "Ring of Psychic Resistance",
+    "rarity": 3,
+    "type": 6
+  },
+  {
+    "name": "Ring of Radiant Resistance",
+    "rarity": 3,
+    "type": 6
+  },
+  {
+    "name": "Ring of Thunder Resistance",
+    "rarity": 3,
+    "type": 6
+  },
+  {
+    "name": "Ring of Shooting Stars",
+    "rarity": 4,
+    "type": 6
+  },
+  {
+    "name": "Ring of Spell Storing",
+    "rarity": 3,
+    "type": 6
+  },
+  {
+    "name": "Ring of Spell Turning",
+    "rarity": 5,
+    "type": 6
+  },
+  {
+    "name": "Ring of Swimming",
+    "rarity": 2,
+    "type": 6
+  },
+  {
+    "name": "Ring of Telekinesis",
+    "rarity": 4,
+    "type": 6
+  },
+  {
+    "name": "Ring of the Ram",
+    "rarity": 3,
+    "type": 6
+  },
+  {
+    "name": "Ring of Three Wishes",
+    "rarity": 5,
+    "type": 6
+  },
+  {
+    "name": "Ring of Warmth",
+    "rarity": 2,
+    "type": 6
+  },
+  {
+    "name": "Ring of Water Walking",
+    "rarity": 2,
+    "type": 6
+  },
+  {
+    "name": "Ring of X-ray Vision",
+    "rarity": 3,
+    "type": 6
+  },
+  {
+    "name": "Robe of Eyes",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Robe of Scintillating Colors",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Robe of Stars",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Robe of the Archmagi",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Robe of Useful Items",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Rod of Absorption",
+    "rarity": 4,
+    "type": 4
+  },
+  {
+    "name": "Rod of Alertness",
+    "rarity": 4,
+    "type": 4
+  },
+  {
+    "name": "Rod of Lordly Might",
+    "rarity": 5,
+    "type": 4
+  },
+  {
+    "name": "Rod of Rulership",
+    "rarity": 3,
+    "type": 4
+  },
+  {
+    "name": "Rod of Security",
+    "rarity": 4,
+    "type": 4
+  },
+  {
+    "name": "Rope of Climbing",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Rope of Entanglement",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Scarab of Protection",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Scimitar of Speed",
+    "rarity": 4,
+    "type": 3
+  },
+  {
+    "name": "Shield of Missile Attraction",
+    "rarity": 3,
+    "type": 0
+  },
+  {
+    "name": "Slippers of Spider Climbing",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Sovereign Glue",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Spell Scroll (Cantrip)",
+    "rarity": 1,
+    "type": 7
+  },
+  {
+    "name": "Spell Scroll (1st)",
+    "rarity": 1,
+    "type": 7
+  },
+  {
+    "name": "Spell Scroll (2nd)",
+    "rarity": 2,
+    "type": 7
+  },
+  {
+    "name": "Spell Scroll (3rd)",
+    "rarity": 2,
+    "type": 7
+  },
+  {
+    "name": "Spell Scroll (4th)",
+    "rarity": 3,
+    "type": 7
+  },
+  {
+    "name": "Spell Scroll (5th)",
+    "rarity": 3,
+    "type": 7
+  },
+  {
+    "name": "Spell Scroll (6th)",
+    "rarity": 4,
+    "type": 7
+  },
+  {
+    "name": "Spell Scroll (7th)",
+    "rarity": 4,
+    "type": 7
+  },
+  {
+    "name": "Spell Scroll (8th)",
+    "rarity": 4,
+    "type": 7
+  },
+  {
+    "name": "Spell Scroll (9th)",
+    "rarity": 5,
+    "type": 7
+  },
+  {
+    "name": "Spellguard Shield",
+    "rarity": 4,
+    "type": 0
+  },
+  {
+    "name": "Sphere of Annihilation",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Staff of Charming",
+    "rarity": 3,
+    "type": 8
+  },
+  {
+    "name": "Staff of Fire",
+    "rarity": 4,
+    "type": 8
+  },
+  {
+    "name": "Staff of Frost",
+    "rarity": 4,
+    "type": 8
+  },
+  {
+    "name": "Staff of Healing",
+    "rarity": 3,
+    "type": 8
+  },
+  {
+    "name": "Staff of Power",
+    "rarity": 4,
+    "type": 8
+  },
+  {
+    "name": "Staff of Striking",
+    "rarity": 4,
+    "type": 8
+  },
+  {
+    "name": "Staff of Swarming Insects",
+    "rarity": 4,
+    "type": 8
+  },
+  {
+    "name": "Staff of the Magi",
+    "rarity": 5,
+    "type": 8
+  },
+  {
+    "name": "Staff of the Python",
+    "rarity": 4,
+    "type": 8
+  },
+  {
+    "name": "Staff of the Woodlands",
+    "rarity": 3,
+    "type": 8
+  },
+  {
+    "name": "Staff of Thunder and Lightning",
+    "rarity": 4,
+    "type": 8
+  },
+  {
+    "name": "Staff of Withering",
+    "rarity": 3,
+    "type": 8
+  },
+  {
+    "name": "Stone of Controlling Earth Elementals",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Stone of Good Luck (Luckstone)",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Sun Blade",
+    "rarity": 3,
+    "type": 3
+  },
+  {
+    "name": "Sword of Life Stealing",
+    "rarity": 3,
+    "type": 3
+  },
+  {
+    "name": "Sword of Sharpness",
+    "rarity": 4,
+    "type": 3
+  },
+  {
+    "name": "Sword of Wounding",
+    "rarity": 3,
+    "type": 3
+  },
+  {
+    "name": "Talisman of Pure Good",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Talisman of the Sphere",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Talisman of Ultimate Evil",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Tome of Clear Thought",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Tome of Leadership and Influence",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Tome of Understanding",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Trident of Fish Command",
+    "rarity": 2,
+    "type": 3
+  },
+  {
+    "name": "Universal Solvent",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Vicious Weapon",
+    "rarity": 3,
+    "type": 3
+  },
+  {
+    "name": "Vorpal Sword",
+    "rarity": 5,
+    "type": 3
+  },
+  {
+    "name": "Wand of Binding",
+    "rarity": 3,
+    "type": 9
+  },
+  {
+    "name": "Wand of Enemy Detection",
+    "rarity": 3,
+    "type": 9
+  },
+  {
+    "name": "Wand of Fear",
+    "rarity": 3,
+    "type": 9
+  },
+  {
+    "name": "Wand of Fireballs",
+    "rarity": 3,
+    "type": 9
+  },
+  {
+    "name": "Wand of Lightning Bolts",
+    "rarity": 3,
+    "type": 9
+  },
+  {
+    "name": "Wand of Magic Detection",
+    "rarity": 2,
+    "type": 9
+  },
+  {
+    "name": "Wand of Magic Missiles",
+    "rarity": 2,
+    "type": 9
+  },
+  {
+    "name": "Wand of Paralysis",
+    "rarity": 3,
+    "type": 9
+  },
+  {
+    "name": "Wand of Polymorph",
+    "rarity": 4,
+    "type": 9
+  },
+  {
+    "name": "Wand of Secrets",
+    "rarity": 2,
+    "type": 9
+  },
+  {
+    "name": "Wand of the War Mage, +1",
+    "rarity": 2,
+    "type": 9
+  },
+  {
+    "name": "Wand of the War Mage, +2",
+    "rarity": 3,
+    "type": 9
+  },
+  {
+    "name": "Wand of the War Mage, +3",
+    "rarity": 4,
+    "type": 9
+  },
+  {
+    "name": "Wand of Web",
+    "rarity": 2,
+    "type": 9
+  },
+  {
+    "name": "Wand of Wonder",
+    "rarity": 3,
+    "type": 9
+  },
+  {
+    "name": "Weapon, +1",
+    "rarity": 2,
+    "type": 3
+  },
+  {
+    "name": "Weapon, +2",
+    "rarity": 3,
+    "type": 3
+  },
+  {
+    "name": "Weapon, +3",
+    "rarity": 4,
+    "type": 3
+  },
+  {
+    "name": "Well of Many Worlds",
+    "rarity": 5,
+    "type": 2
+  },
+  {
+    "name": "Wind Fan",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Winged Boots",
+    "rarity": 2,
+    "type": 2
+  },
+  {
+    "name": "Wings of Flying",
+    "rarity": 3,
+    "type": 2
+  },
+  {
+    "name": "Orb of Dragonkind",
+    "rarity": 6,
+    "type": 2
+  }
+]
