@@ -1,0 +1,398 @@
+[
+  {
+    "name": "Battleaxe",
+    "category": 1,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Berserker Axe",
+    "category": 2,
+    "range": 0,
+    "rarity": 3
+  },
+  {
+    "name": "Blowgun",
+    "category": 1,
+    "range": 1,
+    "rarity": 0
+  },
+  {
+    "name": "Club",
+    "category": 0,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Crossbow, hand",
+    "category": 1,
+    "range": 1,
+    "rarity": 0
+  },
+  {
+    "name": "Crossbow, heavy",
+    "category": 1,
+    "range": 1,
+    "rarity": 0
+  },
+  {
+    "name": "Crossbow, light",
+    "category": 0,
+    "range": 1,
+    "rarity": 0
+  },
+  {
+    "name": "Dagger",
+    "category": 0,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Dagger of Venom",
+    "category": 2,
+    "range": 0,
+    "rarity": 3
+  },
+  {
+    "name": "Dancing Sword",
+    "category": 2,
+    "range": 0,
+    "rarity": 4
+  },
+  {
+    "name": "Dart",
+    "category": 0,
+    "range": 1,
+    "rarity": 0
+  },
+  {
+    "name": "Defender",
+    "category": 2,
+    "range": 0,
+    "rarity": 5
+  },
+  {
+    "name": "Dragon Slayer",
+    "category": 2,
+    "range": 0,
+    "rarity": 3
+  },
+  {
+    "name": "Dwarven Thrower",
+    "category": 2,
+    "range": 0,
+    "rarity": 4
+  },
+  {
+    "name": "Flail",
+    "category": 1,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Flame Tongue",
+    "category": 2,
+    "range": 0,
+    "rarity": 3
+  },
+  {
+    "name": "Frost Brand",
+    "category": 2,
+    "range": 0,
+    "rarity": 4
+  },
+  {
+    "name": "Giant Slayer",
+    "category": 2,
+    "range": 0,
+    "rarity": 3
+  },
+  {
+    "name": "Glaive",
+    "category": 1,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Greataxe",
+    "category": 1,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Greatclub",
+    "category": 0,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Greatsword",
+    "category": 1,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Halberd",
+    "category": 1,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Hammer of Thunderbolts",
+    "category": 2,
+    "range": 0,
+    "rarity": 5
+  },
+  {
+    "name": "Handaxe",
+    "category": 0,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Holy Avenger",
+    "category": 2,
+    "range": 0,
+    "rarity": 5
+  },
+  {
+    "name": "Javelin",
+    "category": 0,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Javelin of Lightning",
+    "category": 2,
+    "range": 1,
+    "rarity": 2
+  },
+  {
+    "name": "Lance",
+    "category": 1,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Light hammer",
+    "category": 0,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Longbow",
+    "category": 1,
+    "range": 1,
+    "rarity": 0
+  },
+  {
+    "name": "Longsword",
+    "category": 1,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Luck Blade",
+    "category": 2,
+    "range": 0,
+    "rarity": 5
+  },
+  {
+    "name": "Mace",
+    "category": 0,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Mace of Disruption",
+    "category": 2,
+    "range": 0,
+    "rarity": 3
+  },
+  {
+    "name": "Mace of Smiting",
+    "category": 2,
+    "range": 0,
+    "rarity": 3
+  },
+  {
+    "name": "Mace of Terror",
+    "category": 2,
+    "range": 0,
+    "rarity": 3
+  },
+  {
+    "name": "Maul",
+    "category": 1,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Morningstar",
+    "category": 1,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Net",
+    "category": 1,
+    "range": 1,
+    "rarity": 0
+  },
+  {
+    "name": "Nine Lives Stealer",
+    "category": 2,
+    "range": 0,
+    "rarity": 4
+  },
+  {
+    "name": "Oathbow",
+    "category": 2,
+    "range": 1,
+    "rarity": 4
+  },
+  {
+    "name": "Pike",
+    "category": 1,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Quarterstaff",
+    "category": 0,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Rapier",
+    "category": 1,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Scimitar",
+    "category": 1,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Scimitar of Speed",
+    "category": 2,
+    "range": 0,
+    "rarity": 4
+  },
+  {
+    "name": "Shortbow",
+    "category": 0,
+    "range": 1,
+    "rarity": 0
+  },
+  {
+    "name": "Shortsword",
+    "category": 1,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Sickle",
+    "category": 0,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Sling",
+    "category": 0,
+    "range": 1,
+    "rarity": 0
+  },
+  {
+    "name": "Spear",
+    "category": 0,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Sun Blade",
+    "category": 2,
+    "range": 0,
+    "rarity": 3
+  },
+  {
+    "name": "Sword of Life Stealing",
+    "category": 2,
+    "range": 0,
+    "rarity": 3
+  },
+  {
+    "name": "Sword of Sharpness",
+    "category": 2,
+    "range": 0,
+    "rarity": 4
+  },
+  {
+    "name": "Sword of Wounding",
+    "category": 2,
+    "range": 0,
+    "rarity": 3
+  },
+  {
+    "name": "Trident",
+    "category": 1,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Trident of Fish Command",
+    "category": 2,
+    "range": 0,
+    "rarity": 2
+  },
+  {
+    "name": "Vicious Weapon",
+    "category": 2,
+    "range": -1,
+    "rarity": 3
+  },
+  {
+    "name": "Vorpal Sword",
+    "category": 2,
+    "range": 0,
+    "rarity": 5
+  },
+  {
+    "name": "War pick",
+    "category": 1,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Warhammer",
+    "category": 1,
+    "range": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Weapon, +1",
+    "category": 2,
+    "range": -1,
+    "rarity": 2
+  },
+  {
+    "name": "Weapon, +2",
+    "category": 2,
+    "range": -1,
+    "rarity": 3
+  },
+  {
+    "name": "Weapon, +3",
+    "category": 2,
+    "range": -1,
+    "rarity": 4
+  },
+  {
+    "name": "Whip",
+    "category": 1,
+    "range": 0,
+    "rarity": 0
+  }
+]
