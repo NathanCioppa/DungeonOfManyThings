@@ -1,25 +1,25 @@
 // Pulls both regular weapons and magic weapons from the SRD data and formats into a json file
 // Development tool only
 
-const fs = require('fs');
-const rawDataMagic = fs.readFileSync('./data/5e-SRD-Magic-Items.json', 'utf-8');
-const rawDataEquipment = fs.readFileSync('./data/5e-SRD-Equipment.json', 'utf-8');
-let magicItems = JSON.parse(rawDataMagic);
-let equipment = JSON.parse(rawDataEquipment);
+//const fs = require('fs');
+//const rawDataMagic = fs.readFileSync('./data/5e-SRD-Magic-Items.json', 'utf-8');
+//const rawDataEquipment = fs.readFileSync('./data/5e-SRD-Equipment.json', 'utf-8');
+//let magicItems = JSON.parse(rawDataMagic);
+//let equipment = JSON.parse(rawDataEquipment);
 
-magicItems = sanitizeMagicWeapons(pullAllMagicWeapons(magicItems));
-equipment = sanitizeNonMagicWeapons(pullAllNonMagicWeapons(equipment));
+//magicItems = sanitizeMagicWeapons(pullAllMagicWeapons(magicItems));
+//equipment = sanitizeNonMagicWeapons(pullAllNonMagicWeapons(equipment));
 
-let weaponsJson = equipment.concat(magicItems);
-weaponsJson = weaponsJson.sort((a, b) => {
-    const nameA = a.name.toLowerCase();
-    const nameB = b.name.toLowerCase(); 
-    if (nameA < nameB) return -1
-    if (nameA > nameB) return 1
-    return 0;
-})
+//let weaponsJson = equipment.concat(magicItems);
+//weaponsJson = weaponsJson.sort((a, b) => {
+//    const nameA = a.name.toLowerCase();
+//    const nameB = b.name.toLowerCase(); 
+//    if (nameA < nameB) return -1
+//    if (nameA > nameB) return 1
+//    return 0;
+//})
 
-fs.writeFileSync('./DungeonOfManyThings/data/weapons.json', JSON.stringify(weaponsJson, null, 2), 'utf-8');
+//fs.writeFileSync('./DungeonOfManyThings/data/weapons.json', JSON.stringify(weaponsJson, null, 2), 'utf-8');
 
 
 

@@ -1,0 +1,207 @@
+[
+  {
+    "name": "Adamantine Armor",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Animated Shield",
+    "rarity": 4,
+    "type": 7
+  },
+  {
+    "name": "Armor of Invulnerability",
+    "rarity": 5,
+    "type": -1
+  },
+  {
+    "name": "Armor of Resistance",
+    "rarity": 3,
+    "type": 4
+  },
+  {
+    "name": "Armor of Vulnerability",
+    "rarity": 3,
+    "type": -1
+  },
+  {
+    "name": "Armor, +1",
+    "rarity": 3,
+    "type": 4
+  },
+  {
+    "name": "Armor, +2",
+    "rarity": 4,
+    "type": 4
+  },
+  {
+    "name": "Armor, +3",
+    "rarity": 5,
+    "type": 4
+  },
+  {
+    "name": "Arrow-Catching Shield",
+    "rarity": 3,
+    "type": 7
+  },
+  {
+    "name": "Black Dragon Scale Mail",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Blue Dragon Scale Mail",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Brass Dragon Scale Mail",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Breastplate",
+    "type": 2,
+    "rarity": 0
+  },
+  {
+    "name": "Bronze Dragon Scale Mail",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Chain Mail",
+    "type": 6,
+    "rarity": 0
+  },
+  {
+    "name": "Chain Shirt",
+    "type": 2,
+    "rarity": 0
+  },
+  {
+    "name": "Copper Dragon Scale Mail",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Demon Armor",
+    "rarity": 4,
+    "type": -1
+  },
+  {
+    "name": "Dragon Scale Mail",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Dwarven Plate",
+    "rarity": 4,
+    "type": -1
+  },
+  {
+    "name": "Elven Chain",
+    "rarity": 3,
+    "type": -1
+  },
+  {
+    "name": "Glamoured Studded Leather Armor",
+    "rarity": 3,
+    "type": -1
+  },
+  {
+    "name": "Gold Dragon Scale Mail",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Green Dragon Scale Mail",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Half Plate Armor",
+    "type": 2,
+    "rarity": 0
+  },
+  {
+    "name": "Hide Armor",
+    "type": 2,
+    "rarity": 0
+  },
+  {
+    "name": "Leather Armor",
+    "type": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Mithral Armor",
+    "rarity": 2,
+    "type": 5
+  },
+  {
+    "name": "Padded Armor",
+    "type": 0,
+    "rarity": 0
+  },
+  {
+    "name": "Plate Armor",
+    "type": 6,
+    "rarity": 0
+  },
+  {
+    "name": "Plate Armor of Etherealness",
+    "rarity": 5,
+    "type": -1
+  },
+  {
+    "name": "Red Dragon Scale Mail",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Ring Mail",
+    "type": 6,
+    "rarity": 0
+  },
+  {
+    "name": "Scale Mail",
+    "type": 2,
+    "rarity": 0
+  },
+  {
+    "name": "Shield",
+    "type": 7,
+    "rarity": 0
+  },
+  {
+    "name": "Shield of Missile Attraction",
+    "rarity": 3,
+    "type": 7
+  },
+  {
+    "name": "Silver Dragon Scale Mail",
+    "rarity": 4,
+    "type": 2
+  },
+  {
+    "name": "Spellguard Shield",
+    "rarity": 4,
+    "type": 7
+  },
+  {
+    "name": "Splint Armor",
+    "type": 6,
+    "rarity": 0
+  },
+  {
+    "name": "Studded Leather Armor",
+    "type": 0,
+    "rarity": 0
+  },
+  {
+    "name": "White Dragon Scale Mail",
+    "rarity": 4,
+    "type": 2
+  }
+]
