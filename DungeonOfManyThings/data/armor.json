@@ -12,7 +12,7 @@
   {
     "name": "Armor of Invulnerability",
     "rarity": 5,
-    "type": -1
+    "type": 6
   },
   {
     "name": "Armor of Resistance",
@@ -22,7 +22,7 @@
   {
     "name": "Armor of Vulnerability",
     "rarity": 3,
-    "type": -1
+    "type": 6
   },
   {
     "name": "Armor, +1",
@@ -87,7 +87,7 @@
   {
     "name": "Demon Armor",
     "rarity": 4,
-    "type": -1
+    "type": 6
   },
   {
     "name": "Dragon Scale Mail",
@@ -97,17 +97,17 @@
   {
     "name": "Dwarven Plate",
     "rarity": 4,
-    "type": -1
+    "type": 6
   },
   {
     "name": "Elven Chain",
     "rarity": 3,
-    "type": -1
+    "type": 2
   },
   {
     "name": "Glamoured Studded Leather Armor",
     "rarity": 3,
-    "type": -1
+    "type": 0
   },
   {
     "name": "Gold Dragon Scale Mail",
@@ -152,7 +152,7 @@
   {
     "name": "Plate Armor of Etherealness",
     "rarity": 5,
-    "type": -1
+    "type": 6
   },
   {
     "name": "Red Dragon Scale Mail",
